@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dc290 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSPAFA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/dc290.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\大学\大三上\数字图像处理实验\实验滚动\实验5\dc290\dc290View.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSPAFA.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSPAFB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/dc290.pdb" /debug /machine:I386 /out:"Debug/dc290.exe" /pdbtype:sept 
+".\Debug\Bmp.obj"
+".\Debug\dc290.obj"
+".\Debug\dc290Doc.obj"
+".\Debug\dc290View.obj"
+".\Debug\DlgHistogram.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\dc290.res"
+]
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSPAFB.tmp"
+<h3>Output Window</h3>
+Compiling...
+dc290View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+dc290.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
